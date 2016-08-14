@@ -54,7 +54,7 @@ public class Menu {
 		case 2: return new General();
 		default : 
 			System.out.println("Opção não existe");		
-			
+		}	
 		return null;	
 	}
 
