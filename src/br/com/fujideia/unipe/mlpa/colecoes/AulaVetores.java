@@ -55,6 +55,14 @@ public class AulaVetores {
 		System.out.println(numeros.equals(listaNumero));
 		System.out.println(Arrays.equals(numeros, listaNumero));
 		
+		int posicao = Arrays.binarySearch(numeros, 3);
+		System.out.println(posicao);
+		
+		int[] outraLista = new int[10];
+		
+		Arrays.fill(outraLista, 20);
+		System.out.println(Arrays.toString(outraLista));
+		
 	}
 
 }
